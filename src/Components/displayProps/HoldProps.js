@@ -26,10 +26,8 @@ function HoldProps() {
     }
   return (
     <div className='body-container'>
-        <div className='body-container-next'>
-
-        
-
+        <section className='body-container-next'>
+            
         <div className='sub-conatiner'>
             <img className='logo' src={logo} alt='logo' onClick={()=>navigate("/")}/>
             <input type='text' className='search-box' placeholder='search by role name ' onChange={handleChange}/>
@@ -89,7 +87,7 @@ function HoldProps() {
                     })
                 }   
         </div>
-        </div>
+        </section>
     </div>
   )
 }

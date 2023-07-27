@@ -1,0 +1,295 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+.body-container{
+    background-image: url('../sub-images/background_raindrop.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.body-container-next{
+
+    box-shadow: 0 0 5px 0;
+    background: inherit;
+    backdrop-filter: blur(10px);
+    overflow-y: scroll;
+    
+}
+.sub-conatiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+    
+}
+
+.logo{
+    height: 40px;
+    margin: 20px 5px;
+}
+
+.search-box{
+    width: 50%;
+    height: 25px;
+    margin: 20px 0;
+    padding: 5px 0;
+    background-color: #EEEDED;
+
+    box-shadow: 0 0 5px 0;
+    background: inherit;
+    backdrop-filter: blur(10px);
+
+}
+
+::placeholder{
+    padding-left: 5px;
+}
+
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.filters > div{
+    margin: 5px 20px;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: white;
+    cursor: pointer;
+
+    box-shadow: 0 0 5px 0;
+    background: inherit;
+    backdrop-filter: blur(10px);
+   
+}
+
+.filters > div:hover{
+
+    background-color: black;
+    color: #fff;
+
+}
+.main-conatiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  
+   
+}
+
+.conatiner {
+    width: 350px;
+    margin: 15px;
+    padding: 10px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 0 5px 0;
+    background: inherit;
+    backdrop-filter: blur(10px);
+}
+
+.conatiner img {
+    width: 350px;
+    height: 200px;
+}
+
+.companyName_roleName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2px 0 0 0;
+    color: #fff;
+}
+
+.posted_numberOfApplications{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2px 0 0 0;
+    color: #fff;
+}
+
+.workLocation_status{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2px 0 0 0;
+    color: #fff;
+}
+
+/* Required Skills */
+
+.requiredSkills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 0 0 0;
+    cursor: pointer;
+}
+
+.requiredSkills > div {
+    padding: 3px 6px;
+    background-color: black;
+    color: white;
+    margin: 0 0 5px 0;
+    
+}
+
+.requiredSkills #skills:hover{
+    background-color:#fff ;
+    color: black;
+}
+
+
+
+
+.non-active {
+    background-color: #CD1818;
+    color: #fff;
+    padding: 5px;
+}
+
+.active {
+    background-color: #0E8388;
+    color: #fff;
+    padding: 5px 5px;
+}
+
+.apply-button{
+    width: 100px;
+    height: 30px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    background-color: #0E8388;
+    color: #fff;
+}
+
+.applicationClosed-button{
+    width: 100px;
+    height: 30px;
+    margin: 10px 0;
+    background-color: #CD1818;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 650px){
+
+    .conatiner img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .conatiner{
+        width: 300px;
+        margin: 15px 0;
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 350px){
+
+    .conatiner img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .conatiner{
+        width: 250px;
+        margin: 15px 0;
+        padding: 10px;
+    }  
+
+}
+
+@media only screen and (max-width: 300px){
+
+    .conatiner img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .conatiner{
+        width: 200px;
+        margin: 15px 0;
+        padding: 10px;
+    }  
+
+}
+
+@media only screen and (max-width: 230px){
+
+    .conatiner img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .conatiner{
+        width: 150px;
+        margin: 15px 0;
+        padding: 10px;
+    }  
+
+}
+
+@media only screen and (max-width: 175px){
+
+    .conatiner img {
+        width: 120px;
+        height: 200px;
+    }
+
+    .conatiner{
+        width: 120px;
+        margin: 15px 0;
+        padding: 10px;
+    }  
+
+}
+
+@media only screen and (max-width: 135px){
+
+    .conatiner img {
+        width: 100px;
+        height: 200px;
+    }
+
+    .conatiner{
+        width: 100px;
+        margin: 15px 0;
+        padding: 10px;
+    }  
+
+}

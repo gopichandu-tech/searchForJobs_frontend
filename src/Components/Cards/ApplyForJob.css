@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.application-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../sub-images/background_raindrop.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #9DB2BF;
+    padding: 50px;
+    color: white;
+
+    box-shadow: 0 0 5px 0;
+    background: inherit;
+    backdrop-filter: blur(10px);
+}
+
+.details-container >input {
+    width: 200px;
+    height: 30px;
+    margin: 10px 0;
+
+}
+
+.invalid {
+    color: red;
+}
+
+.apply-button{
+    width: 150px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width : 350px) {
+
+    .details-container {
+        width: 150px;
+    }
+
+    .details-container >input {
+        width: 150px;
+        height: 30px;
+        padding: 0 10px;
+    
+    }
+    
+}
+
+@media only screen and (max-width : 270px) {
+
+    .details-container {
+        width: 100px;
+
+    }
+
+    .details-container >input {
+        width: 120px;
+        height: 30px;
+        padding: 0;
+        margin: 10px 0;
+    
+    }
+
+    .apply-button{
+        width: 100px;
+        border-radius: 5px;
+    }
+    
+}
+
+@media only screen and (max-width : 220px) {
+
+    .details-container {
+        width: 60px;
+
+    }
+
+    .details-container >input {
+        width: 80px;
+        height: 30px;
+        padding: 0;
+        margin: 10px 0;
+    
+    }
+
+    .apply-button{
+        width: 60px;
+        border-radius: 5px;
+    }
+    
+}
+
+@media only screen and (max-width : 165px) {
+
+    .details-container {
+        width: 40px;
+
+    }
+
+    .details-container >input {
+        width: 60px;
+        height: 30px;
+        padding: 0;
+        margin: 10px 0;
+    
+    }
+
+    .apply-button{
+        width: 50px;
+        border-radius: 5px;
+    }
+    
+}

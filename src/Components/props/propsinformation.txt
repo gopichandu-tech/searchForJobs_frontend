@@ -1,0 +1,150 @@
+/*
+
+{
+        company_title : "title",
+        roleName : "FrontEnd",
+        company_discreption : "lorem",
+        skills   : [
+            {skill1 : "HTML5"},
+            {skill2 : "CSS3"},
+            {sikll3 : "JavaScript"},
+            {sikll4 : "React.js/Angular"}
+        ],
+        img :  "path"
+    },
+
+ {
+        company_title : "title",
+        roleName : "Backend",
+        company_discreption : "lorem",
+        skills   : [
+            {skill1 : "JavaScript"},
+            {skill2 : "Node.js"},
+            {sikll3 : "Express.js"},
+            {sikll4 : "REST API"}
+        ],
+        img :  "path"
+    },
+
+     {
+        company_title : "title",
+        roleName : "FullStack Web Development",
+        company_discreption : "lorem",
+        skills   : [
+            {skill1 : "HTML && CSS && JavaScript/TypeScript"},
+            {skill2 : "React.js/Angular"},
+            {sikll3 : "SQL && MangoDB && Node.js && Express.js"},
+            {sikll4 : "REST APIS"}
+        ],
+        img :  "path"
+    },
+
+    {
+        company_title : "title",
+        roleName : "Java Fullstack",
+        company_discreption : "lorem",
+        skills   : [
+            {skill1 : "java"},
+            {skill2 : "clent-server knowledge"},
+            {sikll3 : "REST APIS"},
+            {sikll4 : "knowledge in networking"}
+        ],
+        img :  "path"
+    },
+
+     {
+        company_title : "title",
+        roleName : "Deep Learning",
+        company_discreption : "lorem",
+        skills   : [
+            {skill1 : "python"},
+            {skill2 : "tenserflow"},
+            {sikll3 : "Alogrithms in machine&deep learning"},
+            {sikll4 : "Advance Statstics"}
+        ],
+        img :  "path"
+    },
+
+     {
+        company_title : "title",
+        roleName : "Machine Learning",
+        company_discreption : "lorem",
+        skills   : [
+            {skill1 : "python"},
+            {skill2 : "Anaconda Environment"},
+            {sikll3 : "Alogrithms in machine learning"},
+            {sikll4 : "basic statstics"}
+        ],
+        img :  "path"
+    },
+
+    //location : India(Remote)
+    //location : USA(Remote)
+    //location : Germany (Remote)
+    //location : Berlin, Berlin, Germany (On-site)
+    //location : Andalusia, Spain (On-site)
+    //location : Poland (Remote)
+    //location : Frankfurt, Hesse, Germany (On-site)
+    //location : Amsterdam, North Holland, Netherlands (On-site)
+    //location : Sweden (On-site)
+    //location : Sweden (Hybrid)
+    //location : Spain (Hybrid)
+    //location : Rochester, MN (Remote)
+    //location : Seattle, WA (Remote)
+    //location : Port Arthur, TX (Hybrid)
+    //location : Portland, OR (On-site)
+    //location : Miami, FL (Hybrid)
+    //location : Charlotte, NC (On-site)
+    //location : United States (Remote)
+
+
+    //1 week ago 9 applicants
+    //3 weeks ago 22 applicants
+    //1 month ago 17 applicants
+
+    //status : Actively recruiting
+    //status : no longer accepting applicants
+
+    
+ */
+
+//Frontend skill
+ skills : {
+    skill1 : "HTML",
+    skill2 : "CSS",
+    skill3 : "JavaScript",
+    Skill4 : "Angular/React.js"
+ }
+
+//Machine Learning Skills
+ skills : {
+    skill1 : "Advance python",
+    skill2 : "Statistics",
+    skill3 : "NLP",
+    Skill4 : "Data Modeling and Evaluation"
+ }
+
+ 
+
+//Deep learning skills
+  skills : {
+    skill1 : "Machine Learning Knowledge",
+    skill2 : "Tenserflow/pytorch",
+    skill3 : "Image processing ",
+    Skill4 : "RNN"
+ }
+
+//Java FullStack
+  skills : {
+    skill1 : "Frontend Knowledge",
+    skill2 : "Spring Frameworks",
+    skill3 : "DevOps tools ",
+    Skill4 : "Web Architecture"
+ }
+
+  skills : {
+    skill1 : "Frontend Knowledge",
+    skill2 : "Node.js/python Frameworks",
+    skill3 : "DBMS",
+    Skill4 : "Web Architecture"
+ }

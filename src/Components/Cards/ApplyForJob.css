@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+
 .application-container{
     display: flex;
     flex-direction: column;

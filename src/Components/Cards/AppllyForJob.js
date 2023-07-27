@@ -52,7 +52,7 @@ function AppllyForJob() {
             <label htmlFor="uploadresume">Upload Resume</label>
             <input type='file' onChange={handleUploadFile} />
             {(username && email && password && resumefile) === '' ? <span className='invalid'>Fill the inputs</span> : <button className='apply-button' onClick={handleClick}>Submilt</button>}
-            {click === true ? <p>Application Submitted Succfully</p> : null}    
+            {click === true ? <p>Application Submitted Successfully</p> : null}    
         </div>
       
     </div>

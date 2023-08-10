@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: url('./navbarImages/cool_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container .title-container{
+    width: 800px;
+    color: #fff;
+    margin: 0 20px 0 100px;
+    font-family: 'Handjet', cursive;
+    font-size: 25px;
+}
+
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px 0 0;
+    height: 200px;
+    width: 300px;
+
+    box-shadow: 0 0 5px 0;
+    background: inherit;
+    backdrop-filter: blur(10px);
+}
+
+.signup-container input {
+    margin: 50px 13px 10px 13px;
+    padding: 10px;
+}
+
+button{
+    padding: 8px;
+    margin: 10px 100px;
+    color: black;
+}
+
+@media (max-width : 1000px) {
+    .signup-container{
+        margin: 0 50px 0 0;
+    }
+  
+}
+
+@media (max-width : 700px) {
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .title-container {
+        width: 400px;
+        margin: 30px 0 30px 80px;
+        /* padding: 0 100px; */
+
+    }
+  
+}
+
+@media (max-width : 500px) {
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .title-container {
+        width: 300px;
+        margin: 30px 0 30px 0px;
+        /* padding: 0 100px; */
+
+    }
+
+    .signup-container{
+        
+        margin: 0 10px 0 0;
+    }
+  
+}
+
+@media (max-width : 320px) {
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .title-container {
+        width: 250px;
+        margin: 30px 0 30px 0px;
+        /* padding: 0 100px; */
+
+    }
+
+    .signup-container{
+        width: 250px; 
+        margin: 0;
+    }
+
+    button {
+        margin: 10px 80px;
+    }
+  
+}
+
+@media (max-width : 270px) {
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .title-container {
+        width: 200px;
+        margin: 30px 0 30px 5px;
+        font-size: 15px;
+    }
+
+    .signup-container{
+        width: 200px; 
+        margin: 0;
+    }
+
+    button {
+        margin: 10px 50px;
+    }
+  
+}
+
+@media (max-width : 220px) {
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .title-container {
+        width: 150px;
+        margin: 10px 0 10px 10px;
+        font-size: 12px;
+    }
+
+    .signup-container{
+        width: 150px; 
+        margin: 0;
+    }
+
+    .signup-container input {
+        margin: 50px 10px 10px 10px;
+        padding: 10px;
+    }
+
+    button {
+        margin: 10px 30px;
+    }
+  
+}
+
+
+

@@ -71,7 +71,7 @@ function HoldProps() {
 
                                 {
                                     item.status === 'Actively recruiting' ?
-                                        <Link to='/application' >
+                                        <Link to='/holdprops/application' className='router-link'>
                                             <button  className='apply-button'>Apply</button>
                                         </Link> 
                                     :  

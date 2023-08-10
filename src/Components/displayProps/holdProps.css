@@ -4,7 +4,7 @@
     opacity: 1; /* Firefox */
   }
 .body-container{
-    background-image: url('../sub-images/background_raindrop.jpg'); 
+    background-image: url('../sub-images/cool_background.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -173,6 +173,10 @@
     padding: 5px 5px;
 }
 
+.router-link {
+    text-decoration: none;
+}
+
 .apply-button{
     width: 100px;
     height: 30px;
@@ -184,6 +188,7 @@
 
     background-color: #0E8388;
     color: #fff;
+    
 }
 
 .applicationClosed-button{

@@ -1,6 +1,25 @@
 const PropsData = [
 
     {
+        id:0,
+        company_title : "Horse Head",
+        roleName : "Deep Learning",
+        company_discreption : "lorem",
+        skills : {
+            skill1 : "Machine Learning",
+            skill2 : "Tenserflow/pytorch",
+            skill3 : "Image processing ",
+            Skill4 : "RNN"
+         },
+        img :  require('./images/hore_head.png'),
+        location : "Italy (Remote)",
+        work_from :"Remote",
+        status : "applications closed",
+        posted : "2 week ago",
+        Applications : "108"
+    },
+
+    {
         id:1,
         company_title : "Alderaire Real Estate",
         roleName : "FullStack Web Development",
@@ -505,6 +524,24 @@ const PropsData = [
         posted : "3 weeks ago",
         Applications : "589"
         
+    },
+    {
+        id:29,
+        company_title : "Horse Head",
+        roleName : "Java Fullstack",
+        company_discreption : "lorem",
+        skills : {
+            skill1 : "Frontend Knowledge",
+            skill2 : "Spring Frameworks",
+            skill3 : "DevOps tools ",
+            Skill4 : "Web Architecture"
+         },
+        img :  require('./images/hore_head.png'),
+        location : "India(Remote)",
+        work_from :"Remote",
+        status   : "Actively recruiting",
+        posted : "2 hrs ago",
+        Applications : "18",
     },
     
 

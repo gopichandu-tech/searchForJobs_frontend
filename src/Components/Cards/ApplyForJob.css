@@ -1,7 +1,10 @@
 
-* {
-    margin: 0;
-    padding: 0;
+body{
+
+    background-image: url('../sub-images/cool_background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -15,13 +18,17 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
-    background-image: url('../sub-images/cool_background.jpg'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-
+    padding: 50px 0;
 }
+
+.title {
+    padding: 20px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 
 .details-container{
     display: flex;
@@ -52,6 +59,27 @@
     border-radius: 5px;
 }
 
+@media (max-width : 610px){
+
+    .application-container{
+        padding: 0;
+    }
+    .details-container{
+        width: 200px;
+    }
+
+    .details-container >input {
+        width: 150px;
+        height: 30px;
+        padding: 0 10px;
+    
+    }
+
+
+
+}
+
+
 @media only screen and (max-width : 350px) {
 
     .details-container {
@@ -69,9 +97,11 @@
 
 @media only screen and (max-width : 270px) {
 
+
+
+
     .details-container {
         width: 100px;
-
     }
 
     .details-container >input {
@@ -93,7 +123,6 @@
 
     .details-container {
         width: 60px;
-
     }
 
     .details-container >input {
@@ -113,9 +142,10 @@
 
 @media only screen and (max-width : 165px) {
 
+
     .details-container {
         width: 40px;
-
+        padding: 20px 0;
     }
 
     .details-container >input {

@@ -33,6 +33,11 @@
     backdrop-filter: blur(10px);
 }
 
+.signup-container .invalid-gmail{
+    color: red;
+    padding: 5px 10px 0 90px;
+}
+
 .signup-container input {
     margin: 50px 13px 10px 13px;
     padding: 10px;
@@ -107,6 +112,11 @@ button{
         margin: 0;
     }
 
+    .signup-container .invalid-gmail{
+        color: red;
+        padding: 5px 0 0 70px;
+    }
+
     button {
         margin: 10px 80px;
     }
@@ -129,6 +139,11 @@ button{
     .signup-container{
         width: 200px; 
         margin: 0;
+    }
+
+    .signup-container .invalid-gmail{
+        color: red;
+        padding: 5px 0 0 40px;
     }
 
     button {
@@ -158,6 +173,11 @@ button{
     .signup-container input {
         margin: 50px 10px 10px 10px;
         padding: 10px;
+    }
+
+    .signup-container .invalid-gmail{
+        color: red;
+        padding: 5px 0 0 20px;
     }
 
     button {

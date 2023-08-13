@@ -61,7 +61,7 @@ function AppllyForJob() {
     setValidatePassword(handlevalidatePassword(enterPassword))
   }
   const handlevalidatePassword = (enterpassword) =>{
-    const passwordPattern = /[a-z]{1,}[A-Z]{1,}[0-9]{1,}/;
+    const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$/;
     return passwordPattern.test(enterpassword);
   }
 

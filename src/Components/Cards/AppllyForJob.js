@@ -69,10 +69,9 @@ function AppllyForJob() {
     <div>
      
       <div className='application-container'>
-      <div className='title'>Apply With StartUp & Co</div>
+      <div className='heading-title'>Apply With StartUp & Co</div>
          
         <div className='details-container'>
-            
             <input type='text' placeholder='Username' onChange={handleUserName}/>{validateusername ? null : <span className='invalid'>Minimum 3 characters</span>}
             <input type='email' placeholder='E-mail' onChange={handleEmail}/>{validateemail ? null : <span className='invalid'>inavlid mail</span>}
             <input type='password' placeholder='create password'  onChange={handleEnterPassword}/>{validatepassword ? null : <span className='invalid'>password contains atleast one Uppercase one Lowercase and one number</span>}
